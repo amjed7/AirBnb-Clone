@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans:wght@500&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.head-container{
+    display: flex;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+}
+
+.logo-img{
+    width: 30%;
+    margin-left: 50px;
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 26%;
+    margin: 20px;
+    border-radius: 25px;
+    height: 50px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.guests{
+    color: #717171;
+}
+
+#search-logo{
+    background: #FF385C;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+}
+
+.side {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 50px;
+    gap: 10px; /* Adjust gap between elements as needed */
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+/* Second part of header*/
+
+
+.categories-container{
+    margin-top: 40px;
+}
+
+.categories{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0 30px;
+    line-height: 10px;
+}
+
+.categories img{
+    width: 25px;
+    height: 25px;
+}
+
+.categories p {
+    font-size: 11px;
+}
+
+.all{
+    text-align: center;
+}
+
+.filters{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 0 5px;
+    gap: 8px;
+    padding: 0 20px;
+    border-radius: 15px;
+    border: 0.01em solid rgb(188, 188, 188);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
