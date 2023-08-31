@@ -13,7 +13,6 @@ body{
 
 
 header{
-    position: fixed;
     width: 100%;
 }
 
@@ -108,4 +107,54 @@ header{
     border-radius: 15px;
     border: 0.01em solid rgb(188, 188, 188);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Section 1*/
+
+.s1{
+    margin-top: 20px;
+    margin-left: 11%;
+    margin-right: 11%;
+}
+
+
+.housse-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+.housse-container img{
+    width: 300px;
+    height: 290px;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+
+.housse .fa-regular{
+
+}
+
+.housse{
+    line-height: 20px;
+}
+
+.housse p{
+    font-weight: 200;
+    color: #717171;
+}
+
+.housse button{
+    background: transparent;
+    border: 0;
+    float: right;
+    margin-right: 6px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.red {
+    color: red;
 }
